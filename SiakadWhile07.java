@@ -35,6 +35,10 @@ public class SiakadWhile07 {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah E");
             }
             i++;
+            
+            if (nilai > 80 && nilai <= 100) {
+                System.out.println("Bagus, pertahankan nilainya!");
+            }
         }
     }   
 }
